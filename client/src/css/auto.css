@@ -1,0 +1,37 @@
+
+.video-container {
+    margin-top: 35px;  
+    border-radius: 5%;
+    overflow: hidden;
+  }
+  
+  
+  @media (max-width: 480px) {
+    .video-container {
+      margin-top: 300px; 
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .video-container {
+      width: 90%;  
+      margin: 0 auto; 
+    }
+  }
+  
+ 
+  @media (max-width: 1024px) {
+    .video-container {
+      width: 80%; 
+      margin: 0 auto; 
+    }
+  }
+  
+  
+  video {
+    width: 100%;   
+    height: auto;   
+    border-radius: 1%; 
+  }
+  
