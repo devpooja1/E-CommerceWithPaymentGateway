@@ -48,7 +48,7 @@ const CheckOut = () => {
 
   const initPay = (data) => {
     const options = {
-      key: "rzp_test_kDhR9S2dT4FiqU",
+      key: "rzp_test_P7mlvr829QKUfF",
       amount: data.amount,
       currency: data.currency,
       name: myProList,
